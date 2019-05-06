@@ -110,7 +110,7 @@ public class PathItemStyle {
     @ColorInt
     private int pathItemTextColor = Color.BLACK;
 
-    public void setPathItemTextColor(int pathItemTextColor) {
+    public void setPathItemTextColor(@ColorInt int pathItemTextColor) {
         this.pathItemTextColor = pathItemTextColor;
     }
 
@@ -123,7 +123,7 @@ public class PathItemStyle {
     @ColorInt
     private int ActivePathItemTextColor = Color.WHITE;
 
-    public void setActivePathItemTextColor(int activePathItemTextColor) {
+    public void setActivePathItemTextColor(@ColorInt int activePathItemTextColor) {
         this.ActivePathItemTextColor = activePathItemTextColor;
     }
 
