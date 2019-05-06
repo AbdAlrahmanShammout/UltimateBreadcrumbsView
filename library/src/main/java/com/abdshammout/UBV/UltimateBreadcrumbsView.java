@@ -1,4 +1,4 @@
-package com.AbdShammout.UBV;
+package com.abdshammout.UBV;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,10 +16,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.AbdShammout.UBV.model.PathItem;
-import com.AbdShammout.UBV.model.PathItemStyle;
-import com.AbdShammout.UBV.util.Constants;
-import com.AbdShammout.UBV.util.Utils;
+import com.abdshammout.UBV.library.R;
+import com.abdshammout.UBV.model.PathItem;
+import com.abdshammout.UBV.model.PathItemStyle;
+import com.abdshammout.UBV.util.Constants;
+import com.abdshammout.UBV.util.Utils;
 
 public class UltimateBreadcrumbsView extends LinearLayout {
 
@@ -45,11 +46,11 @@ public class UltimateBreadcrumbsView extends LinearLayout {
         if (attrs != null) {
             // Attribute initialization
             final TypedArray a = context.obtainStyledAttributes(attrs,
-                    com.AbdShammout.UBV.R.styleable.UltimateBreadcrumbsView, 0, 0);
+                    R.styleable.UltimateBreadcrumbsView, 0, 0);
             if (a.hasValue(R.styleable.UltimateBreadcrumbsView_pathItemBackground))
                 pathItemStyle.setPathItemBackgroundDrawable(a.getDrawable(R.styleable.UltimateBreadcrumbsView_pathItemBackground));
             if (a.hasValue(R.styleable.UltimateBreadcrumbsView_ActivePathItemBackground))
-                pathItemStyle.setBackgroundPathItemActive(a.getDrawable(R.styleable.UltimateBreadcrumbsView_ActivePathItemBackground));
+                pathItemStyle.setActivePathItemBackgroundResId(a.getDrawable(R.styleable.UltimateBreadcrumbsView_ActivePathItemBackground));
 
             pathItemStyle.setPathItemTextColor(a.getColor(R.styleable.UltimateBreadcrumbsView_pathItemTextColor, Color.BLACK));
             pathItemStyle.setActivePathItemTextColor(a.getColor(R.styleable.UltimateBreadcrumbsView_ActivePathItemTextColor, Color.WHITE));
@@ -88,7 +89,8 @@ public class UltimateBreadcrumbsView extends LinearLayout {
             @Override
             public void onClick(View v) {
                 back();
-                onClickListenerBreadcrumbs.onBackClick();
+                if (onClickListenerBreadcrumbs != null)
+                    onClickListenerBreadcrumbs.onBackClick();
             }
         });
         return buttonBack;

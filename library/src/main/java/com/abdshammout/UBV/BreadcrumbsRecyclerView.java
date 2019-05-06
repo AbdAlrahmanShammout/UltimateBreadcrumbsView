@@ -1,4 +1,4 @@
-package com.AbdShammout.UBV;
+package com.abdshammout.UBV;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -6,9 +6,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.AbdShammout.UBV.adapter.AdapterPath;
-import com.AbdShammout.UBV.model.PathItem;
-import com.AbdShammout.UBV.model.PathItemStyle;
+import com.abdshammout.UBV.adapter.AdapterPath;
+import com.abdshammout.UBV.model.PathItem;
+import com.abdshammout.UBV.model.PathItemStyle;
 
 import java.util.ArrayList;
 
@@ -119,15 +119,15 @@ public class BreadcrumbsRecyclerView extends RecyclerView implements OnClickPath
 
     @Override
     public void onClick(int index, String title, int id) {
-        if (onClickListenerBreadcrumbs !=null){
-            backTo(index);
+        backTo(index);
+        if (onClickListenerBreadcrumbs != null){
             onClickListenerBreadcrumbs.onPathItemClick(index, title, id);
         }
     }
 
     @Override
     public void onLongClick(int index, String title, int id) {
-        if (onClickListenerBreadcrumbs !=null)
+        if (onClickListenerBreadcrumbs != null)
             onClickListenerBreadcrumbs.onPathItemLongClick(index, title, id);
     }
 }

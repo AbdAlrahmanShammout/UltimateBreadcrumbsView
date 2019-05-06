@@ -1,4 +1,4 @@
-package com.AbdShammout.UBV.model;
+package com.abdshammout.UBV.model;
 
 
 public class PathItem {

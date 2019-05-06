@@ -1,4 +1,4 @@
-package com.AbdShammout.UBV.adapter;
+package com.abdshammout.UBV.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,12 +9,12 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.AbdShammout.UBV.OnClickPathItem;
-import com.AbdShammout.UBV.R;
-import com.AbdShammout.UBV.model.PathItem;
-import com.AbdShammout.UBV.model.PathItemStyle;
-import com.AbdShammout.UBV.util.Constants;
-import com.AbdShammout.UBV.util.Utils;
+import com.abdshammout.UBV.OnClickPathItem;
+import com.abdshammout.UBV.library.R;
+import com.abdshammout.UBV.model.PathItem;
+import com.abdshammout.UBV.model.PathItemStyle;
+import com.abdshammout.UBV.util.Constants;
+import com.abdshammout.UBV.util.Utils;
 
 import java.util.ArrayList;
 

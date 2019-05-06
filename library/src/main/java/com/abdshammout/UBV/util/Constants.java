@@ -1,4 +1,4 @@
-package com.AbdShammout.UBV.util;
+package com.abdshammout.UBV.util;
 
 public interface Constants {
 

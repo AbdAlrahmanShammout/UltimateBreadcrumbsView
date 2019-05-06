@@ -1,12 +1,12 @@
-package com.AbdShammout.UBV.model;
+package com.abdshammout.UBV.model;
 
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.ColorInt;
 import android.support.annotation.DrawableRes;
 
-import com.AbdShammout.UBV.R;
-import com.AbdShammout.UBV.util.Constants;
+import com.abdshammout.UBV.library.R;
+import com.abdshammout.UBV.util.Constants;
 
 
 public class PathItemStyle {
@@ -61,7 +61,7 @@ public class PathItemStyle {
 
     //******** Active Path Item Background ********
     @DrawableRes
-    private int ActivePathItemBackgroundResId = R.drawable.bg_default_active_path;;
+    private int ActivePathItemBackgroundResId = R.drawable.bg_default_active_path;
     @ColorInt
     private int ActivePathItemBackgroundColor;
 
@@ -70,17 +70,18 @@ public class PathItemStyle {
     private int ActivePathItemBackgroundType = 1;
 
     //******** set ********
-    public void setBackgroundPathItemActive(@DrawableRes int ResId){
+
+    public void setActivePathItemBackgroundResId(@DrawableRes int ResId){
         ActivePathItemBackgroundResId = ResId;
         ActivePathItemBackgroundType = Constants.TYPE_INT_RES;
     }
 
-    public void setBackgroundColorPathItemActive(@ColorInt int color){
+    public void setActivePathItemBackgroundColor(@ColorInt int color){
         ActivePathItemBackgroundColor = color;
         ActivePathItemBackgroundType = Constants.TYPE_INT_COLOR;
     }
 
-    public void setBackgroundPathItemActive(Drawable drawable){
+    public void setActivePathItemBackgroundResId(Drawable drawable){
         ActivePathItemBackgroundDrawable = drawable;
         ActivePathItemBackgroundType = Constants.TYPE_DRAWABLE;
     }
