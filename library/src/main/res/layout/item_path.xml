@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.AbdShammout.UBV.UltimateBreadcrumbsView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pathItemTitle"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:layout_margin="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:textSize="14sp"
+    android:text=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />

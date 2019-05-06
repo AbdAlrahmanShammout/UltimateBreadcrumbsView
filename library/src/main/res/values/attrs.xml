@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UltimateBreadcrumbsView">
+        <attr name="pathItemBackground" format="reference|color" />
+        <attr name="ActivePathItemBackground" format="reference|color" />
+
+        <attr name="pathItemTextColor" format="color" />
+        <attr name="ActivePathItemTextColor" format="color" />
+
+        <attr name="backButtonIcon" format="reference" />
+        <attr name="backButtonBackground" format="reference|color" />
+    </declare-styleable>
+
+</resources>
