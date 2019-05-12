@@ -1,9 +1,24 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
+
+publish {
+
+    def groupProjectID = 'com.abdshammout.UBV'
+    def artifactProjectID = 'library'
+    def publishVersionID = '1.0.0'
+
+    userOrg = 'abdshammout'
+    repoName = 'UltimateBreadcrumbsView'
+    uploadName = ''
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'UltimaleBreadcrumbView is a customized Breadcrumb with many added flexible features that give you control over your content path that you can use to navigate easily through your application'
+    website = 'https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView'
+}
 
 android {
     compileSdkVersion 28
-
-
 
     defaultConfig {
         minSdkVersion 17
@@ -12,7 +27,6 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -22,22 +36,6 @@ android {
         }
     }
 }
-
-
-/*
-apply plugin: 'com.novoda.bintray-release'
-publish {
-    userOrg = 'alhazmy13'
-    groupId = 'net.alhazmy13.mylibrary'
-    artifactId = 'library'
-    uploadName = 'my-library'
-    publishVersion = '1.0.0'
-    desc = 'Library Description'
-    dryRun = false
-    website = 'https://github.com/user/libraryname'
-}
-*/
-
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])

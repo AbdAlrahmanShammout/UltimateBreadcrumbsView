@@ -8,7 +8,9 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.1'
-        
+        // Step I: add this line
+        classpath 'com.novoda:bintray-release:0.9'
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -24,4 +26,29 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+
+ext {
+    bintrayRepo = 'UltimateBreadcrumbsView'
+    bintrayName = 'abdshammout'
+
+    publishedGroupId = 'com.abdshammout.UBV'
+    libraryName = 'UltimaleBreadcrumbView'
+    artifact = 'breadcrumb view'
+
+    libraryDescription = 'UltimaleBreadcrumbView is a customized Breadcrumb with many added flexible features that give you control over your content path that you can use to navigate easily through your application.'
+
+    siteUrl = 'https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView'
+    gitUrl = 'https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'AbdAlrahmanShammout'
+    developerName = 'Abd Alrahman Shammout'
+    developerEmail = 'abdshammout.97@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }

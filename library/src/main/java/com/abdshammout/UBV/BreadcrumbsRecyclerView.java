@@ -86,8 +86,6 @@ public class BreadcrumbsRecyclerView extends RecyclerView implements OnClickPath
         } else{
             adapterPath.notifyItemInserted(position);
             adapterPath.notifyItemRangeChanged(position-1,getItemCount()-1);
-            //adapterPath.notifyItemChanged(position-1);
-            //adapterPath.notifyItemChanged(adapterPath.getItemCount()-2);
         }
         post(new Runnable() {
             @Override
