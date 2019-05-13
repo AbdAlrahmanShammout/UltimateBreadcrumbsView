@@ -5,7 +5,7 @@ publish {
 
     def groupProjectID = 'com.abdshammout.UBV'
     def artifactProjectID = 'library'
-    def publishVersionID = '1.0.0'
+    def publishVersionID = '1.0.2'
 
     userOrg = 'abdshammout'
     repoName = 'UltimateBreadcrumbsView'

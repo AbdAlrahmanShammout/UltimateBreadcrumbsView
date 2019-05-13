@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstSampleActivity">
+
+    <com.abdshammout.UBV.UltimateBreadcrumbsView
+        android:id="@+id/ultimateBreadcrumbsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pathItemBackground="@drawable/bg_two_corner"
+        app:pathItemTextColor="@android:color/white"
+        app:activePathItemBackground="@drawable/bg_two_corner_active"
+        app:activePathItemTextColor="@android:color/black">
+        <!--app:backButtonBackground=""-->
+        <!--app:backButtonIcon=""-->
+
+    </com.abdshammout.UBV.UltimateBreadcrumbsView>
+
+
+    <Button
+        android:id="@+id/addItem"
+        android:text="add item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/addInPosition"
+        android:text="add In Position 5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/removeItem"
+        android:text="remove item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/goToSecondSample"
+        android:text="go To Second Sample"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

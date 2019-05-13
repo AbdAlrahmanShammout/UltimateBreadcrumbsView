@@ -22,7 +22,7 @@ public class PathItemStyle {
     private int typeBackgroundPathItem = 1;
 
     //******** set ********
-    public void setPathItemBackgroundDrawable(@DrawableRes int ResId){
+    public void setPathItemBackgroundResId(@DrawableRes int ResId){
         pathItemBackgroundResId = ResId;
         typeBackgroundPathItem = Constants.TYPE_INT_RES;
     }
@@ -81,7 +81,7 @@ public class PathItemStyle {
         ActivePathItemBackgroundType = Constants.TYPE_INT_COLOR;
     }
 
-    public void setActivePathItemBackgroundResId(Drawable drawable){
+    public void setActivePathItemBackgroundDrawable(Drawable drawable){
         ActivePathItemBackgroundDrawable = drawable;
         ActivePathItemBackgroundType = Constants.TYPE_DRAWABLE;
     }

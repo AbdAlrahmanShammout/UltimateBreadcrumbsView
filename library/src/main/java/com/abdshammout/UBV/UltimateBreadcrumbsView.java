@@ -49,11 +49,11 @@ public class UltimateBreadcrumbsView extends LinearLayout {
                     R.styleable.UltimateBreadcrumbsView, 0, 0);
             if (a.hasValue(R.styleable.UltimateBreadcrumbsView_pathItemBackground))
                 pathItemStyle.setPathItemBackgroundDrawable(a.getDrawable(R.styleable.UltimateBreadcrumbsView_pathItemBackground));
-            if (a.hasValue(R.styleable.UltimateBreadcrumbsView_ActivePathItemBackground))
-                pathItemStyle.setActivePathItemBackgroundResId(a.getDrawable(R.styleable.UltimateBreadcrumbsView_ActivePathItemBackground));
+            if (a.hasValue(R.styleable.UltimateBreadcrumbsView_activePathItemBackground))
+                pathItemStyle.setActivePathItemBackgroundDrawable(a.getDrawable(R.styleable.UltimateBreadcrumbsView_activePathItemBackground));
 
             pathItemStyle.setPathItemTextColor(a.getColor(R.styleable.UltimateBreadcrumbsView_pathItemTextColor, Color.BLACK));
-            pathItemStyle.setActivePathItemTextColor(a.getColor(R.styleable.UltimateBreadcrumbsView_ActivePathItemTextColor, Color.WHITE));
+            pathItemStyle.setActivePathItemTextColor(a.getColor(R.styleable.UltimateBreadcrumbsView_activePathItemTextColor, Color.WHITE));
 
             if (a.hasValue(R.styleable.UltimateBreadcrumbsView_backButtonIcon))
                 setBackButtonIconDrawable(a.getDrawable(R.styleable.UltimateBreadcrumbsView_backButtonIcon));
