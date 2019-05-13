@@ -105,6 +105,17 @@ ultimateBreadcrumbsView.setOnClickListenerBreadcrumbs(new OnClickListenerBreadcr
 });
 ```
 
+## custom style for special path item
+```java
+PathItemStyle pathItemStyle = new PathItemStyle();
+pathItemStyle.setPathItemBackgroundColor(Color.RED);
+pathItemStyle.setActivePathItemBackgroundColor(Color.
+pathItemStyle.setPathItemTextColor(Color.GREEN);
+pathItemStyle.setActivePathItemTextColor(Color.YELLOW
+PathItem pathItem = new PathItem("title");
+pathItem.setPathItemStyle(pathItemStyle, false);//The second parameter boolean for use Style Also In Active
+```
+
 # Contact me
 If you have a better idea or way on this project, please let me know, thanks :)
 <br/>
