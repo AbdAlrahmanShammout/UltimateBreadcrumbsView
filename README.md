@@ -1,5 +1,5 @@
 # UltimateBreadcrumbsView
-UltimaleBreadcrumbView is a customized Breadcrumb with many added flexible features that give you control over your content path that you can use to navigate easily through your application,
+UltimaleBreadcrumbView is a customized Breadcrumbs with many added flexible features that gives you control over your content path that you can use to navigate easily through your application,
 <br>If you have any question or suggestion with this library , welcome to tell me !
 
 ## Demo
@@ -81,7 +81,7 @@ ultimateBreadcrumbsView.back();
 ```
 
 ### Step 4
-It's very simple use just like .
+It's very simple to use.
 
 ```java
 ultimateBreadcrumbsView.setOnClickListenerBreadcrumbs(new OnClickListenerBreadcrumbs() {
