@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StyleActivity">
+
+
+    <TextView
+        android:layout_margin="16dp"
+        android:text="Custom Style"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.abdshammout.UBV.UltimateBreadcrumbsView
+        android:id="@+id/ultimateBreadcrumbsView1"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backButtonIcon="@drawable/ic_back_1"
+        app:backButtonBackground="@drawable/bg_two_corner"
+        app:pathItemBackground="@drawable/bg_two_corner"
+        app:activePathItemBackground="@drawable/bg_two_corner_active"
+        app:pathItemTextColor="@android:color/black"
+        app:activePathItemTextColor="@android:color/white"
+        >
+    </com.abdshammout.UBV.UltimateBreadcrumbsView>
+
+    <TextView
+        android:layout_margin="16dp"
+        android:text="Custom Style and Add a specific style in the second position "
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.abdshammout.UBV.UltimateBreadcrumbsView
+        android:id="@+id/ultimateBreadcrumbsView2"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backButtonIcon="@drawable/ic_back_2"
+        app:backButtonBackground="@drawable/bg_two_corner"
+        app:pathItemBackground="@drawable/bg_two_corner"
+        app:activePathItemBackground="@drawable/bg_two_corner_active"
+        app:pathItemTextColor="@android:color/black"
+        app:activePathItemTextColor="@android:color/white"
+        >
+    </com.abdshammout.UBV.UltimateBreadcrumbsView>
+
+
+    <TextView
+        android:layout_margin="16dp"
+        android:text="Custom Style just use color"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.abdshammout.UBV.UltimateBreadcrumbsView
+        android:id="@+id/ultimateBreadcrumbsView3"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backButtonIcon="@drawable/ic_back_3"
+        app:backButtonBackground="#ccc"
+        app:pathItemBackground="#C0EC94"
+        app:activePathItemBackground="#A5CCF8"
+        app:pathItemTextColor="@android:color/holo_red_dark"
+        app:activePathItemTextColor="@android:color/holo_orange_dark"
+        >
+    </com.abdshammout.UBV.UltimateBreadcrumbsView>
+
+
+</LinearLayout>
