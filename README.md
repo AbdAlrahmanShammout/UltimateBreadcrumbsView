@@ -202,7 +202,7 @@ if You have any thoughts or ideas, please let me know, thanks :)
 
 ```text
 Copyright 2019 Abd Alrahman Shammout
-    for the lights in our lives ☀
+   for the lights in our lives ☀
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
