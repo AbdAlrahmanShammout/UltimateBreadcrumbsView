@@ -1,6 +1,6 @@
 # UltimateBreadcrumbsView
 UltimaleBreadcrumbView is a customized Breadcrumbs with many added flexible features that gives you control over your content path that you can use to navigate easily through your application,
-<br>If you have any question or suggestion with this library , welcome to tell me !
+<br>If you have any question or suggestion with this library , You are Welcome ...
 
 ## Demo
 ![](https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView/blob/master/UltimateBreadcrumbsView%20image/RBCs%20App%20Demo.gif)
@@ -12,12 +12,12 @@ UltimaleBreadcrumbView is a customized Breadcrumbs with many added flexible feat
 
 | method|description|parameter type|
 | ------------- |:-------------:| :-----|
-|`setPathItemBackgroundResId()`|the background of the path item but of the **resource**| ```@DrawableRes int```|
-|`setPathItemBackgroundColor()`|the background of the path item but of the **Color**| ```@ColorInt int```|
-|`setPathItemBackgroundDrawable()`|the background of the path item but of the **Drawable**| ```Drawable```|
-|`setActivePathItemBackgroundResId()`|the background of the **Active** path item but of the **resource**|  ```@DrawableRes int```|
-|`setActivePathItemBackgroundColor()`|the background of the **Active** path item but of the **Color**|  ```@ColorInt int```|
-|`setActivePathItemBackgroundDrawable()`|the background of the **Active** path item but of the **Drawable**| ```Drawable```|
+|`setPathItemBackgroundResId()`|the background of the path item Of type **resource**| ```@DrawableRes int```|
+|`setPathItemBackgroundColor()`|the background of the path item Of type **Color**| ```@ColorInt int```|
+|`setPathItemBackgroundDrawable()`|the background of the path item Of type **Drawable**| ```Drawable```|
+|`setActivePathItemBackgroundResId()`|the background of the **Active** path item Of type **resource**|  ```@DrawableRes int```|
+|`setActivePathItemBackgroundColor()`|the background of the **Active** path item Of type **Color**|  ```@ColorInt int```|
+|`setActivePathItemBackgroundDrawable()`|the background of the **Active** path item Of type **Drawable**| ```Drawable```|
 |`setPathItemTextColor()`|the color of the path item text| ```@ColorInt int```|
 |`setActivePathItemTextColor()`|the color of the **Active** path item text| ```@ColorInt int```|
 
@@ -25,7 +25,7 @@ UltimaleBreadcrumbView is a customized Breadcrumbs with many added flexible feat
 
 | method|description|parameter type|
 | ------------- |:-------------:| :-----|
-|`constructor()`|tow parameter title and id (optional)| ```String, int (optional)```|
+|`constructor()`|two parameters title and id (optional)| ```String, int (optional)```|
 |`setPathItemStyle()`|allows you to choose a specific style for this item and second parameter ask to use a specific Style In Active status also| ```PathItemStyle, boolean useStyleAlsoInActive```|
 > an **id** field is used in the **constructor** to store a given id, for example, to save category id
 
@@ -34,17 +34,17 @@ UltimaleBreadcrumbView is a customized Breadcrumbs with many added flexible feat
 | method|description|parameter type|
 | ------------- |:-------------:| :-----|
 |`setPathItemStyle()`|add a style to **All** path item| ```@DrawableRes int```|
-|`setBackButtonBackgroundRes()`|the background of the Back Button but of the **resource**| ```@DrawableRes int```|
-|`setBackButtonBackgroundColor()`|the background of the Back Button but of the **Color**| ```@ColorInt int```|
-|`setBackButtonBackgroundDrawable()`|the background of the Back Button but of the **Drawable**| ```Drawable```|
-|`setBackButtonIconRes()`|the icon of the Back Button but of the **resource**| ```@DrawableRes int```|
-|`setBackButtonIconDrawable()`|the icon of the Back Button but of the **Drawable**| ```Drawable```|
-|`setBackButtonIconBitmap()`|the icon of the Back Button but of the **Bitmap**| ```Bitmap```|
+|`setBackButtonBackgroundRes()`|the background of the Back Button Of type **resource**| ```@DrawableRes int```|
+|`setBackButtonBackgroundColor()`|the background of the Back Button Of type **Color**| ```@ColorInt int```|
+|`setBackButtonBackgroundDrawable()`|the background of the Back Button Of type **Drawable**| ```Drawable```|
+|`setBackButtonIconRes()`|the icon of the Back Button Of type **resource**| ```@DrawableRes int```|
+|`setBackButtonIconDrawable()`|the icon of the Back Button Of type **Drawable**| ```Drawable```|
+|`setBackButtonIconBitmap()`|the icon of the Back Button Of type **Bitmap**| ```Bitmap```|
 |`setOnClickListenerBreadcrumbs()`|the Listener of the ```onBackClick, onPathItemClick, onPathItemLongClick ```| ```OnClickListenerBreadcrumbs```|
 |`addToPath()`|To add an item to the UltimateBreadcrumbsView| ```PathItem, int position (optional)```|
 |`back()`|To remove item from UltimateBreadcrumbsView|no parameter|
 |`backTo()`|to remove all item from UltimateBreadcrumbsView **to specific position**|```int position```|
-|`getItemCount()`|for get items count are in the ultimatebreadcrumbsview|no parameter|
+|`getItemCount()`|to get items count inn ultimatebreadcrumbsview|no parameter|
 
 
 
@@ -130,7 +130,7 @@ ultimateBreadcrumbsView.setOnClickListenerBreadcrumbs(new OnClickListenerBreadcr
     }
 });
 ```
-### Finally Step 4
+### Final Step 4
 **Very important:** The line must be added after the above instructions have been implemented (Must be the last instruction)
 <br/>
 **(please do not forget this)**
@@ -183,7 +183,7 @@ ultimateBreadcrumbsView.addToPath(pathItem);
 ```
 
 # Contact me
-If you have a better idea or way on this project, please let me know, thanks :)
+if You have any thoughts or ideas, please let me know, thanks :)
 <br/>
 [Email](abdshammout.97@gmail.com)
 <br/>
