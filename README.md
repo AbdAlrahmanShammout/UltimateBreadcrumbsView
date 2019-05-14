@@ -2,8 +2,14 @@
 UltimaleBreadcrumbView is a customized Breadcrumbs with many added flexible features that gives you control over your content path that you can use to navigate easily through your application,
 <br>If you have any question or suggestion with this library , You are Welcome !
 
+
+
 ## Demo
-![](https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView/blob/master/UltimateBreadcrumbsView%20image/RBCs%20App%20Demo.gif)
+| Gif|picture|
+|:-------------:|:-----:|
+|![](https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView/blob/master/UltimateBreadcrumbsView%20image/RBCs%20App%20Demo.gif)|![](https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView/blob/master/UltimateBreadcrumbsView%20image/demo%20style.gif)|
+
+
 ## component UltimateBreadcrumbsView
 ![](https://github.com/AbdAlrahmanShammout/UltimateBreadcrumbsView/blob/master/UltimateBreadcrumbsView%20image/component%20UltimateBreadcrumbsView.jpg)
 ### Consists of three 3️⃣ basic parts.
@@ -182,17 +188,21 @@ pathItem.setPathItemStyle(pathItemStyle, false);//The second parameter boolean f
 ultimateBreadcrumbsView.addToPath(pathItem);
 ```
 
-# Contact me
+# Contact me:
 if You have any thoughts or ideas, please let me know, thanks :)
 <br/>
 [Email](abdshammout.97@gmail.com)
 <br/>
 [Facebook](https://www.facebook.com/abdshammout.1997)
 
+## contributors
+- Linguist Checking : Thanks To [Cloud-22](https://github.com/Cloud-22)
+
 # License
 
 ```text
 Copyright 2019 Abd Alrahman Shammout
+    for the lights in our lives ☀
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
